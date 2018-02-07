@@ -14,6 +14,7 @@ defmodule Babble do
       supervisor(Babble.Endpoint, []),
       # Start your own worker by calling: Babble.Worker.start_link(arg1, arg2, arg3)
       # worker(Babble.Worker, [arg1, arg2, arg3]),
+      supervisor(Babble.Presence, []),
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
