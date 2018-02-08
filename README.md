@@ -10,13 +10,17 @@ The inspiration to build Babble came after I participated in a hackathon. One of
 ## User stories
 
 • A user wants to create an account
+
 • A user wants to see other users online
+
 • A user wants chat with other users
+
 • A user wants to edit/update their profile
+
 • A user wants to delete their profile
 
 ## Helpful links
 
-- Found a great 3-part tutorial by [Tensor Programming](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) on [Youtube](https://www.youtube.com/watch?v=irDC1nWKhZ8)
+- Found a great 3-part tutorial by Tensor Programming on [Youtube](https://www.youtube.com/watch?v=irDC1nWKhZ8)
 
 - [Phoenix Framework](http://phoenixframework.org/) Documentation
