@@ -53,6 +53,7 @@ defmodule Babble.Web do
       import Babble.Router.Helpers
       import Babble.ErrorHelpers
       import Babble.Gettext
+      import Babble.ViewHelper
     end
   end
 
