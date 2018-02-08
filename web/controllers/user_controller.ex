@@ -22,7 +22,7 @@ defmodule Babble.UserController do
 
   # Create
   def create(conn, %{"user" => user_params}) do
-      changeset = User.changeset(%User{}, user_params)
+      changeset = User.reg_changeset(%User{}, user_params)
 
       case Repo.insert(changeset) do
         {:ok, _user} ->
@@ -37,7 +37,7 @@ defmodule Babble.UserController do
     # Edit
     def edit(conn, %{"id" => id}) do
       user = Repo.get!(User, id)
-      changeset = User.changeset(user)
+      changeset = User.reg_changeset(user)
       render(conn, "edit.html", user: user, changeset: changeset)
   	end
 
