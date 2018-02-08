@@ -16,7 +16,7 @@
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-
+            <%= render "logged.html", conn: @conn %>
           </ul>
         </nav>
         <span class="header"><h1>Welcome to Babble!</h1></span>

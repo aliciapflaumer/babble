@@ -20,11 +20,11 @@ defmodule Babble.SessionController do
 	    		|> render("new.html")
 	    end
   	end
-    #
-  	# def delete(conn, _) do
-	  # 	conn
-	  # 	|> Guardian.Plug.sign_out
-	  # 	|> redirect(to: "/")
-  	# end
+    
+  	def delete(conn, _) do
+	  	conn
+	  	|> Guardian.Plug.sign_out
+	  	|> redirect(to: "/")
+  	end
 
 end
