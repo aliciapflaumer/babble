@@ -20,7 +20,7 @@ defmodule Babble.Mixfile do
   def application do
     [
       mod: {Babble, []},
-      extra_applications: [:logger, :comeonin]
+      extra_applications: [:logger, :comeonin, :ueberauth]
     ]
   end
 
@@ -42,7 +42,8 @@ defmodule Babble.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:comeonin, "~> 3.0"},
-      {:guardian, "~> 0.14"}
+      {:guardian, "~> 0.14"},
+      {:ueberauth, "~> 0.4"}
     ]
   end
 

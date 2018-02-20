@@ -1,6 +1,8 @@
 defmodule Babble.UserController do
   use Babble.Web, :controller
 
+  plug Ueberauth
+
   alias Babble.User
 
   def index(conn, _params) do

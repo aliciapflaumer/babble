@@ -12,7 +12,7 @@ defmodule Babble.SessionController do
 	    	{:ok, conn} ->
 	    		logged_user = Guardian.Plug.current_resource(conn)
 	    		conn
-	    		|> put_flash(:info, "logged in!")
+	    		|> put_flash(:info, "You are logged in!")
 	    		|> redirect(to: page_path(conn, :index))
 	    	{:error, _reason, conn} ->
 	    		conn
@@ -20,7 +20,7 @@ defmodule Babble.SessionController do
 	    		|> render("new.html")
 	    end
   	end
-    
+
   	def delete(conn, _) do
 	  	conn
 	  	|> Guardian.Plug.sign_out
