@@ -34,4 +34,10 @@ config :guardian, Guardian,
   secret_key: "",
   serializer: Babble.GuardianSerializer
 
+# Provide a list of the providers
+config :ueberauth, Ueberauth,
+  providers: [
+    facebook: { Ueberauth.Strategy.Facebook, [ opt1: "value", opts2: "value" ] },
+    github: { Ueberauth.Strategy.Github, [ opt1: "value", opts2: "value" ] }
+  ]
 import_config "#{Mix.env}.exs"
