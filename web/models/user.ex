@@ -2,6 +2,7 @@ defmodule Babble.User do
   use Babble.Web, :model
 
   schema "users" do
+    field :name, :string
     field :email, :string
     field :encrypt_pass, :string
     field :password, :string, virtual: true
@@ -36,5 +37,5 @@ defmodule Babble.User do
         changeset
     end
   end
-  
+
 end
