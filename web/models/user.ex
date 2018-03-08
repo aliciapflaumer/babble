@@ -2,6 +2,7 @@ defmodule Babble.User do
   use Babble.Web, :model
 
   schema "users" do
+    field :name, :string
     field :email, :string
     field :encrypt_pass, :string
     field :password, :string, virtual: true
@@ -14,7 +15,7 @@ defmodule Babble.User do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:email, :password])
+    |> cast(params, [:name, :email, :password])
     |> validate_required([:email, :password])
     |> unique_constraint(:email)
   end
@@ -36,5 +37,5 @@ defmodule Babble.User do
         changeset
     end
   end
-  
+
 end
