@@ -20,7 +20,7 @@ defmodule Babble.Mixfile do
   def application do
     [
       mod: {Babble, []},
-      extra_applications: [:logger, :comeonin, :ueberauth]
+      extra_applications: [:logger, :comeonin, :ueberauth, :httpoison]
     ]
   end
 
