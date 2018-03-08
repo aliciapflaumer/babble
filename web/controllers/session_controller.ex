@@ -2,7 +2,6 @@ defmodule Babble.SessionController do
 	use Babble.Web, :controller
 	import Babble.Auth
 
-
 	def new(conn, _params) do
       render(conn, "new.html")
   	end

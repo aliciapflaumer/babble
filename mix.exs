@@ -43,7 +43,8 @@ defmodule Babble.Mixfile do
       {:cowboy, "~> 1.0"},
       {:comeonin, "~> 3.0"},
       {:guardian, "~> 0.14"},
-      {:ueberauth, "~> 0.4"}
+      {:ueberauth, "~> 0.4"},
+      {:httpoison, "~> 1.0.0"}
     ]
   end
 
