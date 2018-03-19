@@ -9,7 +9,7 @@ defmodule Babble.SessionController do
   	def create(conn, %{"session" => %{"email" => user, "password" => password}}) do
 	    case login_with(conn, user, password, repo: Repo) do
 	    	{:ok, conn} ->
-	    		logged_user = Guardian.Plug.current_resource(conn)
+	    		# logged_user = Guardian.Plug.current_resource(conn)
 	    		conn
 	    		|> put_flash(:info, "You are logged in!")
 	    		|> redirect(to: page_path(conn, :index))
