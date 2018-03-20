@@ -8,11 +8,11 @@
     <ul id="messageList" class="list-unstyled">
 
     </ul>
-    <input type="text" id="newMessage" class="form-control">
+    <input type="text" id="newMessage" class="form-control" placeholder="Type and press enter...">
   </div>
 
   <div class="col-md-4">
-    <h3>Users Online:</h3>
+    <h3>Who's Online:</h3>
     <ul id="userList" class="list-unstyled">
       <li></li>
     </ul>
