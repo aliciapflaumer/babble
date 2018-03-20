@@ -11,7 +11,7 @@ defmodule Babble.SessionController do
 	    	{:ok, conn} ->
 	    		# logged_user = Guardian.Plug.current_resource(conn)
 	    		conn
-	    		|> put_flash(:info, "You are logged in!")
+	    		|> put_flash(:info, "You are signed in!")
 	    		|> redirect(to: page_path(conn, :index))
 	    	{:error, _reason, conn} ->
 	    		conn

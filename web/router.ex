@@ -21,12 +21,6 @@ defmodule Babble.Router do
     plug Guardian.Plug.LoadResource
   end
 
-  # scope "/", Babble do
-  #   pipe_through :browser # Use the default browser stack
-  #   resources "/users", UserController
-  #   get "/", PageController, :index
-  # end
-
   scope "/", Babble do
     pipe_through :browser # Use the default browser stack
     resources "/users", UserController, [:new, :create]
