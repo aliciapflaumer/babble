@@ -20,7 +20,7 @@ defmodule Babble.Mixfile do
   def application do
     [
       mod: {Babble, []},
-      extra_applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :comeonin, :ueberauth, :httpoison, :postgrex]
+      extra_applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :comeonin, :ueberauth, :httpoison]
     ]
   end
 
@@ -36,7 +36,7 @@ defmodule Babble.Mixfile do
       {:phoenix, "~> 1.3.0-rc"},
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_ecto, "~> 3.2"},
-      {:postgrex, ">= 0.0.0"},
+      # {:postgrex, ">= 0.0.0"},
       {:phoenix_html, "~> 2.10"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
