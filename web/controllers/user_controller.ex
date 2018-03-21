@@ -1,7 +1,7 @@
 defmodule Babble.UserController do
   use Babble.Web, :controller
 
-  plug Ueberauth
+  # plug Ueberauth
 
   alias Babble.User
 

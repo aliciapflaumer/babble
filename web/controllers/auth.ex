@@ -1,6 +1,6 @@
 defmodule Babble.Auth do
 	import Comeonin.Pbkdf2, only: [checkpw: 2, dummy_checkpw: 0]
-	# import Plug.Conn
+	import Plug.Conn
 
 	defp login(conn, user) do
 		conn
