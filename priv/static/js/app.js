@@ -1644,7 +1644,7 @@ require("phoenix_html");
 var _phoenix = require("phoenix");
 
 // Socket
-var user = document.getElementById("user").innerHTML;
+var user = document.getElementById("user").innerText;
 var socket = new _phoenix.Socket("/socket", { params: { user: user } });
 
 socket.connect();
