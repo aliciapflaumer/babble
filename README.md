@@ -1,5 +1,9 @@
 # Babble, a chat app built with the Phoenix/Elixir framework
 
+**Screenshot of application**
+
+![screenshot of Babble chat app](web/static/assets/images/project-babble-chat.png)
+
 ## Live link, deployed on Heroku
 [Deployed application](https://babble.herokuapp.com/)
 
