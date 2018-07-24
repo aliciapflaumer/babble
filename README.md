@@ -7,6 +7,10 @@
 ## Live link, deployed on Heroku
 [Deployed application](https://babble.herokuapp.com/)
 
+## What is Phoenix?
+
+Phoenix is a backend (serve-side) framework written in the Elixir programming language.
+
 ## Approach to building babble
 
 The inspiration to build Babble came after I participated in a hackathon. One of my teammates mentioned Phoenix/Elixir and showed me a chat app that she built with the framework. This sparked my curiousity, and I wanted to set out to learn about it on my own. After doing some research, I found a great 3-part tutorial on YouTube that explained very well the basics behind building a Phoenix chat app (see link below).
