@@ -25,8 +25,6 @@ config :babble, Babble.Endpoint,
   code_reloader: true,
   check_origin: false,
   watchers: [npm: ["run", "watch", cd: Path.expand("../assets", __DIR__)]]
-  # watchers: [node: ["node_modules/brunch/bin/brunch", "watch", "--stdin",
-  #                   cd: Path.expand("../", __DIR__)]]
 
 # Watch static and templates for browser reloading.
 config :babble, Babble.Endpoint,
