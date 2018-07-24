@@ -9,7 +9,7 @@
 
 ## What is Phoenix?
 
-Phoenix is a backend (serve-side) framework written in the Elixir programming language.
+Phoenix is a backend (server-side) framework written in the Elixir programming language.
 
 ## Approach to building babble
 
