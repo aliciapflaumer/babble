@@ -44,7 +44,8 @@ defmodule Babble.Mixfile do
       {:comeonin, "~> 3.0"},
       {:guardian, "~> 0.14"},
       {:ueberauth, "~> 0.4"},
-      {:httpoison, "~> 1.0.0"}
+      {:httpoison, "~> 1.0.0"},
+      {:font_awesome_phoenix, "~> 1.0"}
     ]
   end
 

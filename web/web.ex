@@ -54,6 +54,7 @@ defmodule Babble.Web do
       import Babble.ErrorHelpers
       import Babble.Gettext
       import Babble.ViewHelper
+      import FontAwesomePhoenix.HTML
     end
   end
 
