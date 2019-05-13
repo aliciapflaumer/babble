@@ -9,6 +9,22 @@
 
     <title>Babble | a chat app</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <style>
+      .footer {
+        background-color: lightblue;
+        color: #666;
+        font-weight: 500;
+        margin: 5% auto;
+        padding: 5% 0;
+      }
+      .footer a {
+        color: #666;
+        text-decoration: underline;
+      }
+      .footer a:hover {
+        color: #fff;
+      }
+    </style>
   </head>
 
   <body>
@@ -30,6 +46,17 @@
       </main>
 
     </div> <!-- /container -->
+    <footer>
+      <div class="footer" style="text-align: center; width: 100%">
+        Alicia Pflaumer 2018 |
+        <a href="https://www.linkedin.com/in/aliciapflaumer/" target="_blank">
+        LinkedIn
+      </a>&nbsp;
+        <a href="https://github.com/aliciapflaumer" target="_blank">
+          Github
+        </a>
+      </div>
+    </footer>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
