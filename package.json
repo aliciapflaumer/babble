@@ -14,7 +14,7 @@
     "coffeescript": "^2.5.1",
     "eslint": "^5.16.0",
     "jquery": ">=3.5.0",
-    "lodash": "^4.17.15",
+    "lodash": ">=4.17.19",
     "loggy": "^1.0.8",
     "needle": "^2.4.1",
     "phoenix": "^1.5.1",
