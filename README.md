@@ -2,7 +2,7 @@
 
 **Screenshot of application**
 
-![screenshot of Babble chat app](web/static/assets/images/project-babble-chat.png)
+![screenshot of Babble chat app](assets/images/project-babble-chat.png)
 
 ## Live link, deployed on Heroku
 [Deployed application](https://babble.herokuapp.com/)
