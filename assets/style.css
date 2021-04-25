@@ -1,0 +1,17 @@
+body {
+    background-color: #d8dee6;
+    margin: auto;
+    text-align: center;
+}
+.description {
+    text-align: left;
+}
+h2, p, footer {
+    color: #3d597d;
+}
+a {
+    color: #3d597d;
+}
+header, footer {
+    margin: 2rem auto;
+}
